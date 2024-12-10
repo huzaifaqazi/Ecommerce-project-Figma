@@ -1,7 +1,6 @@
 import { FaDotCircle } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { IoSwapVertical } from "react-icons/io5";
-import exp from "constants";
 
 export const Pickup = () => {
   return (
