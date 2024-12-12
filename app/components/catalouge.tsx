@@ -53,7 +53,7 @@ const Catalouge = () => {
         {/* Card 2 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl sm:text-2xl font-bold">Nissan GT-R</h1>
+            <h1 className="text-3xl sm:text-2xl font-bold">Nissan GT-R</h1>
             <CiHeart className="text-[#90A3BF] text-2xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>
@@ -116,7 +116,7 @@ const Catalouge = () => {
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
             <h1 className="text-xl sm:text-2xl font-bold">Nissan GT-R</h1>
-            <FaHeart className="text-[#ED3F3F] text-xl sm:text-2xl" />
+            <CiHeart className=" text-3xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>
           <Image src={categorycar} alt="car" className="my-14" />
