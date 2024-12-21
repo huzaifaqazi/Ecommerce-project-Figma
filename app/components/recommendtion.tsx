@@ -13,17 +13,17 @@ import car10 from "../../public/images/car10.png"
 
 const Recommendtion = () => {
   return (
-    <div className="h-full -mt-16 bg-[#F6F7F9] sm:p-8 md:p-10 lg:p-14 w-full">
+    <div className="h-full -mt-16 bg-[#F6F7F9] p-14">
       <div className="">
         <h1 className="text-[#90A3BF]">Recommendation</h1>
 
         {/* container */}
         <div className="flex justify-between items-center my-4 gap-6">
           {/* card 1 */}
-          <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+          <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
-              <h1 className="p-6 text-2xl font-bold">All new Rush</h1>
+              <h1 className="p-6 text-xl sm:text-2xl  font-bold">All new Rush</h1>
               <CiHeart className="mx-5 text-3xl" />
             </div>
             <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -54,7 +54,7 @@ const Recommendtion = () => {
           </div>
 
           {/* caed 2 */}
-          <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+          <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
               <h1 className="p-6 text-2xl font-bold">CR-R</h1>
@@ -88,7 +88,7 @@ const Recommendtion = () => {
           </div>
 
           {/* card 3 */}
-          <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+          <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
               <h1 className="p-6 text-2xl font-bold">AllNewTerioes</h1>
@@ -123,7 +123,7 @@ const Recommendtion = () => {
 
           {/* card 4 */}
 
-          <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+          <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
               <h1 className="p-6 text-2xl font-bold">CR - V</h1>
@@ -162,7 +162,7 @@ const Recommendtion = () => {
       <div className="my-14 bg-[#F6F7F9] flex justify-between items-center gap-6">
 
         {/* card 1 */}
-        <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+        <div className="w-full sm:w-[48%] lg:w-[350px] h-auto  bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
             <h1 className="p-6 text-2xl font-bold">MGZX - Exclusive</h1>
@@ -195,7 +195,7 @@ const Recommendtion = () => {
           </div>
         </div>
         {/* card 2 */}
-        <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+        <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
             <h1 className="p-6 text-2xl font-bold">New MGZS</h1>
@@ -228,7 +228,7 @@ const Recommendtion = () => {
           </div>
         </div>
         {/* card 3 */}
-        <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+        <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
             <h1 className="p-6 text-xl font-bold">MGZX-Excite</h1>
@@ -261,7 +261,7 @@ const Recommendtion = () => {
           </div>
         </div>
         {/* card 4 */}
-        <div className="w-[350px] h-[400px] bg-[#ffffff] rounded-lg shadow-md">
+        <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
             <h1 className="p-6 text-2xl font-bold">CR - V</h1>
