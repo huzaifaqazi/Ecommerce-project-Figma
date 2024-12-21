@@ -13,7 +13,7 @@ export default function Home() {
       <Pickup/> 
       <Catalouge/>
       <Recommendtion/> 
-       <Foooter/> 
+      {/* <Foooter/>  */}
     </div>
     
   
