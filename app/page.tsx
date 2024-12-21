@@ -3,7 +3,7 @@ import Hero from "./components/hero";
 import { Pickup } from "./components/pickup";
 import Catalouge from "./components/catalouge";
 import Recommendtion from "./components/recommendtion";
-import { Foooter } from "./components/foooter";
+import { Footer } from "./components/foooter";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Pickup/> 
       <Catalouge/>
       <Recommendtion/> 
-      <Foooter/> 
+      <Footer/>
     </div>
     
   

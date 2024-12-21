@@ -10,80 +10,87 @@ const menuItems2 = [
   "Events",
   "Blog",
   "Podcast",
-  "Invite a friend"
+  "Invite a friend",
 ];
+
 const menuItems3 = [
   "Discord",
   "Instagram",
   "Twitter",
-  "Facebook"
-]
+  "Facebook",
+];
 
-export const Foooter = () => {
+export const Footer = () => {
   return (
-    <div className='w-[1440px] h-[480px] bg-[#ffffff] py-[80px] px-[60px]'>
+    <div className="w-full bg-[#ffffff] py-10 px-5 sm:px-10 lg:px-20">
 
-      <div className="w-[292px] h-[108px]">
-        <h1 className='text-[#3563E9] text-[32px] font-bold'>MORENT</h1>
-        <p className='text-[#131313] py-4'>Our vision is to provide convenience and help increase your sales business.</p>
+      {/* Logo and Vision */}
+      <div className="mb-10">
+        <h1 className="text-[#3563E9] text-[28px] sm:text-[32px] font-bold">
+          MORENT
+        </h1>
+        <p className="text-[#131313] mt-4 text-sm sm:text-base w-[280px]">
+          Our vision is to provide convenience and help increase your sales business.
+        </p>
       </div>
 
-      {/* list 1 */}
-      <div className=" w-[152px] h-[244px] relative left-[890px] -top-[90px]">
-        <h1 className='text-xl font-bold '>About</h1>
-        <ul className='my-7'>
-          {
-            menuItems.map((items, i) => {
-              return (
-                <li className='my-4' key={i}>{items}</li>
-              )
-            })
-          }
-        </ul>
+      {/* Menu Sections */}
+      <div className="flex flex-wrap justify-between lg:justify-start gap-10 relative">
+        {/* About Section */}
+        <div className="w-full sm:w-auto">
+          <h1 className="text-lg sm:text-xl font-bold">About</h1>
+          <ul className="mt-5 ">
+            {menuItems.map((item, i) => (
+              <li className="my-2 text-sm sm:text-base" key={i}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Community Section */}
+        <div className="w-full sm:w-auto">
+          <h1 className="text-lg sm:text-xl font-bold">Community</h1>
+          <ul className="mt-5">
+            {menuItems2.map((item, i) => (
+              <li className="my-2 text-sm sm:text-base" key={i}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Socials Section */}
+        <div className="w-full sm:w-auto">
+          <h1 className="text-lg sm:text-xl font-bold">Socials</h1>
+          <ul className="mt-5">
+            {menuItems3.map((item, i) => (
+              <li className="my-2 text-sm sm:text-base" key={i}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
+      {/* Divider */}
+      <div className="w-full h-[1px] bg-gray-300 my-10"></div>
 
-      {/* list 2 */}
-      <div className=" w-[152px] h-[244px] relative left-[1120px] -top-[335px]">
-        <h1 className='text-xl font-bold '>Community</h1>
-        <ul className='my-3'>
-          {
-            menuItems2.map((items, i) => {
-              return (
-                <li className='my-7' key={i}>{items}</li>
-              )
-            })
-          }
-        </ul>
-      </div>
-
-      {/* list 3 */}
-      <div className="w-[152px] h-[244px] relative left-[1340px] -top-[581px]">
-        <h1 className='text-xl font-bold '>Socials</h1>
-        <ul className='my-3'>
-          {
-            menuItems3.map((items, i) => {
-              return (
-                <li className='my-7' key={i}>{items}</li>
-              )
-            })
-          }
-        </ul>
-      </div>
-
-
-      <div className="w-[1460px] -mt-[540px] mx-[40px] bg-gray-400  border ">
-      </div>
-
-      <div className="my-7 mx-11 flex">
-        <h1 className='text-black text-[18px]'>©2022 MORENT. All rights reserved</h1>
-        <div className=" flex justify-end absolute top-[396px ] left-[1170px] ">
-          <p className='font-semibold'>Privacy & Policy</p>
-          <p className='mx-28 font-semibold'>Terms & Condition</p>
+      {/* Footer Bottom */}
+      <div className="flex flex-col sm:flex-row justify-between items-center">
+        <h1 className="text-black text-sm sm:text-base">
+          ©2022 MORENT. All rights reserved.
+        </h1>
+        <div className="flex mt-5 sm:mt-0 space-x-5">
+          <p className="font-semibold text-sm sm:text-base cursor-pointer">
+            Privacy & Policy
+          </p>
+          <p className="font-semibold text-sm sm:text-base cursor-pointer">
+            Terms & Condition
+          </p>
         </div>
       </div>
     </div>
-
-
-  )
-}
+  );
+};
+export default Footer
