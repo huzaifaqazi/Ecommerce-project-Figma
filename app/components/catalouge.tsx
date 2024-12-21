@@ -10,7 +10,7 @@ import Categorycar3 from "../../public/images/car3.png";
 
 const Catalouge = () => {
   return (
-    <div className="bg-[#F6F7F9] p-6 sm:p-8 md:p-10 lg:p-14">
+    <div className="bg-[#F6F7F9]  sm:p-8 md:p-10 lg:p-14">
       {/* Header */}
       <div className="flex justify-between items-center">
         <p className="text-[#90A3BF] text-sm sm:text-base">Popular Car</p>
@@ -18,7 +18,7 @@ const Catalouge = () => {
       </div>
 
       {/* Cards Container */}
-      <div className="flex flex-wrap justify-between gap-4 md:gap-6 lg:gap-8 my-6">
+      <div className="flex justify-between gap-4 md:gap-6 lg:gap-8 my-6">
         {/* Card 1 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">

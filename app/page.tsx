@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <Pickup/>
+       <Hero/>
+      <Pickup/> 
       <Catalouge/>
-      <Recommendtion/>
-      <Foooter/>
+      <Recommendtion/> 
+       <Foooter/> 
     </div>
     
   

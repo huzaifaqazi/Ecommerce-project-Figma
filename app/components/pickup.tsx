@@ -4,7 +4,7 @@ import { IoSwapVertical } from "react-icons/io5";
 
 export const Pickup = () => {
   return (
-    <div className="bg-[#F6F7F9]  h-auto py-10 flex flex-col lg:flex-row justify-center items-center -mt-10 mx-5" >
+    <div className="bg-[#F6F7F9] w-full  h-auto py-10 flex flex-col lg:flex-row justify-center items-center " >
       {/* Pickup Box */}
       <div className="bg-white h-auto w-[80%] lg:w-[45%]  lg:mx-10 my-5 lg:my-0 p-5 lg:p-7 rounded-lg shadow-md">
         <div className="text-md flex items-center">
