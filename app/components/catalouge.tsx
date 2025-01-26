@@ -22,7 +22,7 @@ const Catalouge = () => {
         {/* Card 1 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl sm:text-2xl font-bold">Koenigsegg</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-[#1A202C]">Koenigsegg</h1>
             <FaHeart className="text-[#ED3F3F] text-xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>
@@ -53,7 +53,7 @@ const Catalouge = () => {
         {/* Card 2 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl sm:text-2xl font-bold">Nissan GT-R</h1>
+            <h1 className="text-3xl sm:text-2xl font-bold text-[#1A202C]">Nissan GT-R</h1>
             <CiHeart className="text-[#90A3BF] text-2xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>
@@ -84,7 +84,7 @@ const Catalouge = () => {
         {/* Card 3 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl sm:text-2xl font-bold">Rolls-Royce</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-[#1A202C]">Rolls-Royce</h1>
             <FaHeart className="text-[#ED3F3F] text-xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>
@@ -115,7 +115,7 @@ const Catalouge = () => {
         {/* Card 4 */}
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-white p-4 rounded-lg shadow-md">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl sm:text-2xl font-bold">Nissan GT-R</h1>
+            <h1 className="text-xl sm:text-2xl font-bold text-[#1A202C]">Nissan GT-R</h1>
             <CiHeart className=" text-3xl sm:text-2xl" />
           </div>
           <p className="text-[#90A3BF] text-sm sm:text-base">Sport</p>

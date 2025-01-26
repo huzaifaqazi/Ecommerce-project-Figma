@@ -23,10 +23,10 @@ const Recommendtion = () => {
           <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
-              <h1 className="p-6 text-xl sm:text-2xl  font-bold">All new Rush</h1>
+              <h1 className="p-6 text-xl sm:text-2xl  font-bold text-[#1A202C]">All new Rush</h1>
               <CiHeart className="mx-5 text-3xl" />
             </div>
-            <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
+            <p className="-my-6 mx-10 text-black">SUV</p>
             <Image src={recommendationcar1} alt="car" className="h-[250px]" />
             <div className="flex items-center justify-around mx-2">
               <div className="flex items-center">
@@ -57,7 +57,7 @@ const Recommendtion = () => {
           <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
-              <h1 className="p-6 text-2xl font-bold">CR-R</h1>
+              <h1 className="p-6 text-2xl font-bold text-[#1A202C]">CR-R</h1>
               <  FaHeart className="mx-5 text-[#ED3F3F] text-2xl" />
             </div>
             <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -91,7 +91,7 @@ const Recommendtion = () => {
           <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
-              <h1 className="p-6 text-2xl font-bold">AllNewTerioes</h1>
+              <h1 className="p-6 text-2xl font-bold text-[#1A202C]">AllNewTerioes</h1>
               < CiHeart className="mx-5 text-3xl" />
             </div>
             <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -126,7 +126,7 @@ const Recommendtion = () => {
           <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
             <div className="flex justify-between items-center">
-              <h1 className="p-6 text-2xl font-bold">CR - V</h1>
+              <h1 className="p-6 text-2xl font-bold text-[#1A202C]">CR - V</h1>
               < FaHeart className="mx-5 text-[#ED3F3F] text-2xl" />
             </div>
             <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -165,7 +165,7 @@ const Recommendtion = () => {
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto  bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
-            <h1 className="p-6 text-2xl font-bold">MGZX - Exclusive</h1>
+            <h1 className="p-6 text-2xl font-bold text-[#1A202C]">MGZX - Exclusive</h1>
             <FaHeart className="mx-5 text-2xl text-[#ED3F3F] " />
           </div>
           <p className="-my-6 mx-10 text-[#90A3BF]">HatchBack</p>
@@ -198,7 +198,7 @@ const Recommendtion = () => {
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
-            <h1 className="p-6 text-2xl font-bold">New MGZS</h1>
+            <h1 className="p-6 text-2xl font-bold text-[#1A202C]">New MGZS</h1>
             <  CiHeart className="mx-5 text-3xl" />
           </div>
           <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -231,7 +231,7 @@ const Recommendtion = () => {
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
-            <h1 className="p-6 text-xl font-bold">MGZX-Excite</h1>
+            <h1 className="p-6 text-xl font-bold text-[#1A202C]">MGZX-Excite</h1>
             < FaHeart className="mx-5 text-2xl text-[#ED3F3F]" />
           </div>
           <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>
@@ -264,7 +264,7 @@ const Recommendtion = () => {
         <div className="w-full sm:w-[48%] lg:w-[350px] h-auto bg-[#ffffff] rounded-lg shadow-md">
 
           <div className="flex justify-between items-center">
-            <h1 className="p-6 text-2xl font-bold">CR - V</h1>
+            <h1 className="p-6 text-2xl font-bold text-[#1A202C]">CR - V</h1>
             <CiHeart className="mx-5 text-3xl" />
           </div>
           <p className="-my-6 mx-10 text-[#90A3BF]">SUV</p>

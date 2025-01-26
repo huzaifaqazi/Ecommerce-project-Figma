@@ -22,7 +22,7 @@ const menuItems3 = [
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-[#ffffff] py-10 px-5 sm:px-10 lg:px-20">
+    <div className="w-full bg-[#ffffff] py-10 px-5 sm:px-10 lg:px-20 text-[#1A202C] ">
 
       {/* Logo and Vision */}
       <div className="mb-10">
